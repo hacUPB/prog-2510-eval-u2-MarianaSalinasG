@@ -32,3 +32,14 @@ De ahí nacieron los términos RISC y CISC.
 [Acerca de la arquitectura del computador.](https://www.fing.edu.uy/tecnoinf/mvd/cursos/arqcomp/material/teo/arq-teo05.pdf)\
 [Otra recurso donde puedes encontrar información.](https://triton.astroscu.unam.mx/fruiz/introduccion/introduccion_computacion/Arquitectura%20RISC%20vs%20CISC.pdf)
 
+### ``¿Qué es el hardware?``
+El hardware son un conjunto de piezas que conforman un sistema infomático. Es completamente diferente al software, *que está completamente relacionado con los programas y sistemas operativos.* 
+El hardware incluye dispositivos como: CPU, memoria, GPU, discos duros y dispositivos de entrada y salida. 
+**Su función como tal es: procesar, almacenar y transferir datos dentro de un sistema.** 
+
+### CPU: UNIDAD CENTRAL DE PROCESAMIENTO.
+La CPU es el "cerebro" de la computadora, este procesa las instrucciones de los programas y coordinar las tareas del sistema. 
+|Partes principales| Función|
+|---------|---------|
+|**ALU - Unidad Aritmético-lógica.**|Ejecuta operaciones matemáticas y lógicas, como: sumas, restas y operaciones|
+|||

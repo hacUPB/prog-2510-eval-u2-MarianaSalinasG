@@ -97,7 +97,7 @@ Este es el encargado del desarrollo de aplicaciones por lo que su función es el
 
 [Acerca de los tipos de Software](https://www.wolterskluwer.com/es-es/expert-insights/que-tipos-de-software-hay#Software_programacion)
 
-### ``Funcionamienrto del computador``
+### ``Funcionamiento del computador``
 
 #### *¿Qué procesos se llevan a cabo cuando se enciende una computadora?*
 

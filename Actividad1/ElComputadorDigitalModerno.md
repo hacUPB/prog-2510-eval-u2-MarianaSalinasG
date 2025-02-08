@@ -134,3 +134,7 @@ Las computadoras emplean el sistema binario parta representar y procesar los dat
 [Fuete 2](https://www.studocu.com/latam/document/universidad-autonoma-de-santo-domingo/informatica-i/esquema-tarea/105805353) \
 [Fuente 3](https://ruben-tese.blogspot.com/2008/07/62-entrada-y-salida-de-datos.html) \
 [Fuente 4](https://es.wikipedia.org/wiki/Unidad_de_informaci%C3%B3n)
+
+## Mapa conceptual
+
+[Mapa conceptual]{}

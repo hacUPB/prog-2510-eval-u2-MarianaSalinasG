@@ -157,3 +157,7 @@ $164160B$ $/$ $1024B$ = $160,3125KB$
 
 ### ``Conclusión.``
 Por medio de esta actividad aprendí a diferenciar estos diferentes lenguajes de programación y entendí que cada uno maneja los datos de forma diferente pero con características similares en cuanto a almacenamiento y precisión. También me permitió conocer cómo optimizar la memoria, especialmente cuando se requiere de almacenar grandes volúmenes.
+
+- Presición en las ordenes (indicaciones).
+- Lenguaje de programación = Conjunto de reglas.
+- Algoritmo = Serie de pasos precisos, sin ambigüedades, para resolver algo en específico. 

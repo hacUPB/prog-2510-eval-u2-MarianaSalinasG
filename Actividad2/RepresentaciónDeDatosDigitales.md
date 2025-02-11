@@ -120,3 +120,20 @@ $1025 = 0101100010_{2}$
 |Número binario|0|1|0|1|1|1|0|1|1|
 
 $1025 = 010111011_{2}$
+
+### ``Actividad de investigación y organización de resultados.``
+
+|Tipo de dato|C|Java|Python|Características|
+|---|---|---|---|---|
+|Entero|int|int|int|Representa números enteros. En C y Java ocupa 4 bytes. En Python, su tamaño varía.|
+|Flotante|float|float|float|Representa números decimales. En C y Java ocupa 4 bytes. En Python es de doble precisión (8 bytes).|
+|Doble precisión|double|double|no existe|Similar a **float**, pero con mayor precisión. Ocupa 8 bytes en C y Java.|
+|Caracter|char|char|No existe se usa **str**|Almacena un solo carácter. En C y Java ocupa 1 byte.|
+|Cadena de texto|char o string|string|str|Almacena una secuencia de caracteres. En C se usa un array de char. En Java y Python es una estructura más compleja.|
+|Booleano|_Bool|boolean|bool|Representa valores true o false. En C ocupa 1 byte, en Java 1 bit (pero depende de la implementación), y en Python 1 byte.|
+
+### ``Cálculo de espacio en memoria.``
+
+
+### ``Conclusión.``
+Por medio de esta actividad aprendí a diferenciar estos diferentes lenguajes de programación y entendí que cada uno maneja los datos de forma diferente pero con características similares en cuanto a almacenamiento y precisión. También me permitió conocer cómo optimizar la memoria, especialmente cuando se requiere de almacenar grandes volúmenes.

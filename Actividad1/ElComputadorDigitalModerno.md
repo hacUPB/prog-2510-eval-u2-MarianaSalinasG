@@ -137,4 +137,5 @@ Las computadoras emplean el sistema binario parta representar y procesar los dat
 
 ## Mapa conceptual
 
-[Mapa conceptual]{}
+![Mapa conceptual](images/png.png)
+

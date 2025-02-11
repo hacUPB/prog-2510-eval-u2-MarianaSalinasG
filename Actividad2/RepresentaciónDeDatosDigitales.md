@@ -134,6 +134,26 @@ $1025 = 010111011_{2}$
 
 ### ``Cálculo de espacio en memoria.``
 
+|Ejercicio de cálculo de espacio en memoria||
+|--|--|
+|Información|Valor en Bytes|||||||||
+|Número entero|4 bytes|
+|Valor flotante|4 bytes|
+|Dato Booleano|1 byte|
+|Un texto con 10 caracteres|10 bytes|
+|Total|19 bytes|
+
+
+Equivalencia: 
+
+En $1$ $minuto$ = 6 datos.\
+En $60$ $minuto$ = 360 datos.\
+En $24$ $horas$ = 8640 datos.
+
+$8640$ $datos$ $/$ $19B$ = $164160B$ $/dia$
+
+Resultado en Kilobytes.\
+$164160B$ $/$ $1024B$ = $160,3125KB$
 
 ### ``Conclusión.``
 Por medio de esta actividad aprendí a diferenciar estos diferentes lenguajes de programación y entendí que cada uno maneja los datos de forma diferente pero con características similares en cuanto a almacenamiento y precisión. También me permitió conocer cómo optimizar la memoria, especialmente cuando se requiere de almacenar grandes volúmenes.

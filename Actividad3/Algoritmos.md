@@ -80,3 +80,121 @@ Inicio
 Si alumnos 
 **Diagrama de flujo:**
 ![Diagrama 3](<images/Diagrama Actividad Ejercicio 3.png>)
+
+# Bucles
+
+## Ejercicio 1
+Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo `while`. Realice el diagrama de flujo y el pseudocódigo.\
+
+**Código en Python**
+```py
+suma = 0
+cont = 1 
+while cont <= 10:
+    valor = int(input("Ingrese el valor": ))
+    suma = suma + valor
+    cont = cont + 1
+print(f"La suma es:{suma}")
+```
+
+## Ejemplo 2
+Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo `for`. Realice el diagrama de flujo y el pseudocódigo.
+**Código en Python**
+```py
+suma = 0
+for cont in range(1,11,1):
+    valor = int(input("Ingrese el valor: "))
+    suma = suma + valor
+print(f"La suma es: {suma}")
+```
+## Ejericicios del libro.
+1. Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual durante 6 años. ¿Cuál es su salario al cabo de 6
+años? ¿Qué salario ha recibido en cada uno de los 6 años? Realice el
+algoritmo y represente la solución mediante el diagrama de flujo, el
+pseudocódigo y el diagrama N/S, utilizando el ciclo apropiado.
+
+*Análisis*
+1. Variables de entrada:
+
+    - No hay.
+
+2. Variables de salida:
+    - salario:
+
+3. Constantes:
+    - salario_inicial: 1500
+    - años: 6
+    - incremento: 0.1
+
+4. Otras variables
+    - c
+
+5. Ecuaciones
+    - $salario = salario + (salario * incremento)$
+
+**Pseudocódigo**
+```
+Inicio
+
+salario_inicial: 1500
+años: 6
+incremento: 0.1
+
+Desde c = 0 hasta c = años
+    salario = salario_inicial
+    Escribir "El salario del año, c, "es de", salario
+    salario = salario * incremento
+Fin Desde
+Fin
+```
+
+**Python**
+```py
+salario_inicial = 1500
+incremento = 0.1
+años = 6
+salario = salario_inicial + (salario_incial * incremento)
+for c in range (1,años,1):
+    print(f"El salario el año {c} es de {salario}")
+    salario = salario + (salario * incremento)
+print(f"El salario al cabo de los 6 años es {salario}")
+```
+
+2. “El náufrago satisfecho” ofrece hamburguesas sencillas (S), dobles
+(D) y triples (T), las cuales tienen un costo de $20, $25 y $28 respectivamente. La empresa acepta tarjetas de crédito con un cargo
+de 5 % sobre la compra. Suponiendo que los clientes adquieren N
+hamburguesas, las cuales pueden ser de diferente tipo, realice un
+algoritmo para determinar cuánto deben pagar. Represéntelo en
+diagrama de flujo, pseudocódigo y diagrama N/S. 
+
+*Análisis*
+1. Variables de entrada:
+
+    - S.
+    - D.
+    - T.
+
+2. Variables de salida:
+    - precio_total
+
+3. Constantes:
+    - hamburguesa_S = 20
+    - hamburguesa_D = 25.
+    - hamburguesa_T = 28
+    - cargo = 0.05
+
+4. Otras variables
+    - N = S + D + T
+
+5. Ecuaciones
+    - $salario = salario + (salario * incremento)$
+
+**Pseudocódigo**
+```
+Inicio
+Leer S
+```
+
+**Python**
+```
+```

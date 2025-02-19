@@ -198,3 +198,73 @@ Leer S
 **Python**
 ```
 ```
+# 📤 Consigna tus respuestas en la bitácora
+### Parte 1: Identificar Algoritmos
+
+Responde si los siguientes enunciados representan un algoritmo. Justifica la respuesta:
+
+1. Una página web.
+    - No, una página web no es un algoritmo. Puesto que no necesariamente sigue una secuencia de pasos definidos para resolver un problema.
+2. Una receta para hacer un pastel, donde se indican ingredientes y pasos a seguir.
+    - Sí, si es un algoritmo. Puesto que la receta presenta una serie de pasos claros que deben seguirse para obtener un resultado. 
+3. "Piensa en un número y multiplícalo por otro".
+    - Sí, puesto que sigue una secuencia de pasos pata realizar una tarea específica.
+4. Un manual de instrucciones para armar un mueble, con pasos detallados y un orden claro.
+    - Sí, este detalla los pasos ordenados a seguirse para el ensamble del mueble.
+5. Una lista de compras organizada en orden alfabético
+    - No, porque no describe una serie de pasos solo lista los elementos de forma organizada.
+
+### Parte 2: Variables y Constantes
+
+Indica si las siguientes afirmaciones describen una variable o una constante:
+
+1. El valor de la gravedad en la Tierra, 9.8 m/s².
+    - Constante.
+2. La edad de una persona calculada en base al año actual y su año de nacimiento.
+    - Variable.
+3. La cantidad de dinero en una cuenta bancaria.
+    - Variable.
+4. La velocidad de la luz en el vacío, 299,792,458 m/s.
+    - Constante.
+5. El radio de un círculo.
+    - Variable.
+
+### Parte 3: Características de los Algoritmos
+
+Responde si los siguientes enunciados cumplen con las características de un algoritmo. Justifica la respuesta:
+
+1. Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños.
+    - No, este enunciado no cumple con las características de un algoritmo. Puesto que no define pasos y un criterio claro de finalización.
+2. Suma los números ingresados y muestra el resultado.
+    - Sí, si cumple con las características de los algoritmos. La secuencia de pasos es clara. 
+3. Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura.
+    - Sí, cumple con las características del algoritmo: recibe base y altura, calcula el área por fórmula y entrega el valor final.
+4. El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1.
+    - Sí, tiene pasos definidos y por ende cumple con las características de un algoritmo.
+
+### Parte 4: Comprensión de Herramientas
+
+Indica si las siguientes afirmaciones son ciertas o falsas respecto al pseudocódigo y diagramas de flujo:
+
+1. El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas.
+    - Falso, no usa símbolos estandar, por el contrario emplea una descripción textual de las operaciones lógicas.
+2. Los diagramas de flujo son una representación gráfica de un algoritmo.
+    - Verdadero, mediante símbolos gráficos representa los pasos lógicos y el flujo del algoritmo.
+3. El pseudocódigo debe estar escrito en un lenguaje de programación específico.
+    - Falso, el pseudocódigo no está escrito en  un lenguaje de programación específico. Es una descripción textual que se asemeja a un lenguaje de programación pero informal.
+4. Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos.
+    - Verdadero, el diagrama debe tener un punto de inicio y un fin definidos, para representar el flujo del algoritmo completo.
+
+### Parte 5: Estructuras de Control
+
+Describe para qué sirven las estructuras de control. Redacta dos ejemplos, uno de tu vida diaria, es decir cuando tienes que tomar decisiones en tus actividades diarias y oto ejemplo en el que se tengan que utilizar cálculos matemáticos para tomar una u otra decisión.
+Las estructuras de control sirven para dirigir el flojo de ejecución de un programa, permitiendo la toma de decisiones, repetir acciones y seleccionar cuales son los caminos diferentes de ejecución.
+
+### *Ejemplo de la vida diaria:*
+
+Si está lloviendo, llevar sombrilla.\
+Si no está lloviendo, no llevar sombrillas.
+
+### *Ejemplo con cálculos matemáticos:*
+
+Si el valor de un vestido es menor igual a mi presupuesto, compro el vestido, de lo contrario, no compro el vestido.

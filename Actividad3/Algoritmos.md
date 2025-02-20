@@ -268,3 +268,69 @@ Si no está lloviendo, no llevar sombrillas.
 ### *Ejemplo con cálculos matemáticos:*
 
 Si el valor de un vestido es menor igual a mi presupuesto, compro el vestido, de lo contrario, no compro el vestido.
+
+## Ejercicio extra (Antes de Retos)
+1. Solicitar al usuario 2 números enteros. Imprimir en pantalla los números pares comprendidos entre ellos.
+
+Pseudocódigo
+```
+Inicio
+Leer Numero_1
+Leer Numero_2
+
+Si Numero_1 > Numero_2
+    nMayor = Numero_1
+    nMenor = Numero_2
+Si no
+    nMayor = Numero_2
+    nMenor = Numero_1
+Fin si
+
+Mientras nMenor < nMayor  
+    Si residuo(nMenor, 2) = 0 //Determinar si nMenor es par.
+        Escribir nMenor
+    Fin si
+    nMenor = nMenor + 1
+Fin Mientras
+Fin
+
+```
+
+Código en Python
+```py
+Numero_1 = int(input("Ingrese el primer numero: "))
+Numero_2 = int(input("Ingrese el segundo numero: "))
+
+if Numero_1 > Numero_2:
+    nMayor = Numero_1
+    nMenor = Numero_2
+else:
+    nMayor = Numero_2
+    nMenor = Numero_1
+while nMenor <= nMayor:
+    if (nMenor % 2) == 0:
+        print (nMenor)
+    nMenor = nMenor + 1
+``` 
+
+2. Serie de Fibonacci\
+Pseudocódigo
+```
+Inicio
+Escribir "¿Cuántos números de la serie desea imprimir?"
+Leer cantidad
+
+// Términos de la serie
+n1 = 0
+n2 = 1
+Escribir n1, n2
+cantidad = cantidad - 2
+Mientras cantidad > 0
+    Resultado = n1 + n2
+    Escribir Resultado
+    n1 = n2
+    n2 = Resultado
+    cantidad = cantidad - 1
+Fin Mientras
+Fin
+```

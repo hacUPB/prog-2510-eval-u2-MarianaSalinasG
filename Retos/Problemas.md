@@ -71,3 +71,31 @@ Fin
 
 4. Se requiere determinar la edad actual de una persona basándose en su fecha de nacimiento. Además, es necesario establecer si la persona ya ha cumplido años en el año en curso, si aún no lo ha hecho, o si hoy es su cumpleaños, para celebrarlo. La fecha de nacimiento y la fecha actual estarán representadas mediante tres variables: día, mes y año.
 
+```
+Inicio
+Leer diahoy
+Leer meshoy
+Leer anohoy
+Leer diacumple
+Leer mescumple
+Leer anocumple
+
+edad = anohoy - anocumple
+Si meshoy < mescumple
+    edad = edad - 1
+Si no si meshoy = mescumple
+    Si diahoy < diacumple
+        edad = edad - 1
+    Si no si diahoy = diacumple
+        Imprimir "Happy Birthday! 🎁"
+    Si no 
+        Imprmir "El usuario ya cumplió años"
+    Fin si
+Si no 
+    Escribir "El usuario ya cumplió años"
+Fin si
+Imprimir edad
+Fin
+```
+
+#### Diagrama de flujo

@@ -77,7 +77,24 @@ print("El valor de la compra con descuento es:", ValorTotalConDescuento)
 
 **Pseudocódigo:**
 Inicio
-Si alumnos 
+Leer numeroAlumnos
+Si numeroAlumnos < 30
+    total = 4000
+    precio = total / numeroAlumnos
+Si no
+    Si numeroAlumnos < 50
+        precio = 95
+    Si no
+        Si numeroAlumnos < 100
+            precio = 70
+        Si no
+            precio = 65
+        Fin si
+    Fin si
+    total = precio * numeroAlumnos
+Fin si
+Escribir precio, total
+
 **Diagrama de flujo:**
 ![Diagrama 3](<images/Diagrama Actividad Ejercicio 3.png>)
 
@@ -192,9 +209,38 @@ diagrama de flujo, pseudocódigo y diagrama N/S.
 **Pseudocódigo**
 ```
 Inicio
+hamburguesa_S = 20
+hamburguesa_D = 25.
+hamburguesa_T = 28
+cargo = 0.05
+total = 0 
 Leer S
-```
+c = 0
 
+Mientras c < S
+    Leer tipodehamburguesa
+    Leer cuantashamburguesas
+        Si tipodehamburguesa = S
+            total = total = (cuantashamburguesas * hamburguesa_S)
+            c = c + cuantashamburguesas
+        Si no si tipodehamburguesa = D
+            total = total = (cuantashamburguesas * hamburguesa_D)
+            c = c + cuantashamburguesas
+        Si no si tipodehamburguesa = T
+            total = total = (cuantashamburguesas * hamburguesa_T)
+            c = c + cuantashamburguesas
+        Si no 
+            Escribir "Tipo de hamburguesa no válido"
+        Fin si
+Fin Mientras
+
+Leer pagomediantetarjeta
+Si pagomediantetarjeta = 1
+    total = total + (total * cargo)
+Fin si
+Escribir  "El total a pagar es de: $", total
+Fin
+```
 **Python**
 ```
 ```

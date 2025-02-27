@@ -103,3 +103,31 @@ Fin
 
 5. Realice un algoritmo que permita determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que a partir de la hora número 41 y hasta la 45, cada hora se le paga el doble, de la hora 46 a la 50, el triple, y que trabajar
 más de 50 horas no está permitido. Represente el algoritmo mediante pseudocódigo.
+
+```
+Inicio
+Leer sueldoSemanal
+Leer horasTrabajadas
+Leer pagoxHora 
+
+Escribir "Ingrese el número de horas trabajadas"
+Leer horasTrabajadas
+Si horasTrabajadas > 50
+Escribir "No está permitido trabajar más de 50 horas"
+Si no
+    Si horasTrabajadas <= 40 
+        sueldoSemanal = horasTrabajadas * pagoxhora
+    Si no si horasTrabajadas <= 45
+        sueldoSemanal = (40 * horasTrabajadas + (horasTrabajadas - 40) * pagoxhora * 2) 
+    Si no si horasTrabajadas <= 50
+        sueldoSemanal = (40 * horasTrabajadas + (5 * horasTrabajadas * 2 ) + (horasTrabajadas - 45) * pagoxhora * 3)
+    Fin si
+Fin si
+
+Escribir "En total su sueldo semanal es de: ", sueldoSemanal
+Fin 
+```
+
+6. Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero. Realice el pseudocódigo para representarlo, utilizando el ciclo apropiado.
+
+

@@ -6,7 +6,28 @@ esos puntos.
 
 ![alt text](images/image.webp)
 
-Solución:
+## Solución:
+
+#### *Análisis*
+
+``Variables de entrada:``
+  - y_2
+  - y_1
+  - x_2
+  - x_1
+
+``Variables de salida:``
+- D
+
+``Constantes:``
+- No hay constantes.
+
+``Otras variables:``
+- No hay otras variables.
+
+ ``Ecuaciones:``
+- D = sqrt((y_2-y_1)^2+(x_2-x_1)^2)
+
 
 #### Pseudocódigo
 ```
@@ -130,21 +151,71 @@ Fin
 
 6. Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero. Realice el pseudocódigo para representarlo, utilizando el ciclo apropiado.
 
+```
+Inicio
+
+```
+
 7. Se requiere un algoritmo para determinar cuánto ahorrará en pesos una persona diariamente, y en un año, si ahorra 3¢ el primero de enero, 9¢ el dos de enero, 27¢ el 3 de enero y así sucesivamente todo el año. Represente la solución mediante pseudocódigo.
 
 ```
 Inicio
-Leer ahorroxdia
-Leer ahorroanual
-Leer i
-
 ahorroxdia = 3
 ahorroanual = 0
-Para i desde 1 hasta 365 
-    ahorroanual = 3 *(3^(i-1))
-    ahorroanual = ahorroanual + ahorroxdia
-Fin para
+Desde i = 1 hasta i = 365 
+    ahorroxdiap = ahorroxdia / 100
+    Escribir "El ahorro del día", i, "es de $", ahorroxdiap 
+    ahorroxdia = 3^(c+1)
+Fin Desde
+
+ahorroanualp = (3 *(3^(i-1))) / 100
+ahorroanual = ahorroanualp + ahorroxdiap
+
 Escribir "El ahorro total anual es de: ", ahorroanual
 Fin
 ```
+
+8. Realice el algoritmo para determinar cuánto pagará una persona que adquiere N artículos, los cuales están de promoción. Considere que si su precio es mayor o igual a $200 se le aplica un descuento de 15%, y si su precio es mayor a $100, pero menor a $200, el descuento es de
+12%; de lo contrario, solo se le aplica 10%. Se debe saber cuál es el costo y el descuento que tendrá cada uno de los artículos y finalmente cuánto se pagará por todos los artículos obtenidos. Represente la solución mediante pseudocódigo.
+
+```
+Inicio
+Leer cantidadarticulos
+Leer precio
+Leer descuento
+Leer costoFinalxArticulo
+Leer totalapagar
+Leer i
+
+totalapagar = 0
+Escribir "Ingrese la cantidad de artículos adquiridos: "
+Leer cantidadarticulos
+Desde i = 1 hasta i = cantidadarticulos
+    Escribir "Ingrese el precio del artículo"
+    Leer precio
+
+    Si precio >= 200
+        descuento = precio * 0.15
+    Si no si 100 < precio > 200
+        descuento = precio * 0.12
+    Si no 
+        descuento = precio * 0.10
+    Fin si
+
+costoFinalxArticulo = precio - descuento
+totalapagar = totalapagar + costoFinalxArticulo
+
+Escribir "El costo del producto sin descuento es: ", precio
+Escribir "El descuento realizado es de: ", descuento
+Escribir "El precio final del artículo con descuento es: ", costoFinalxArticulo
+
+Fin Desde
+
+Escribir "El total a pagar por todos los artículos es: ", totalapagar
+Fin
+```
+
+9. Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:
+    
+    $𝑒^𝑥 = 1+\frac x {1!} + \frac {x^2}{2!}+ \frac {x^3}{3!}+ …$
 

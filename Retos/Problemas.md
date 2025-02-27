@@ -130,4 +130,21 @@ Fin
 
 6. Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero. Realice el pseudocódigo para representarlo, utilizando el ciclo apropiado.
 
+7. Se requiere un algoritmo para determinar cuánto ahorrará en pesos una persona diariamente, y en un año, si ahorra 3¢ el primero de enero, 9¢ el dos de enero, 27¢ el 3 de enero y así sucesivamente todo el año. Represente la solución mediante pseudocódigo.
+
+```
+Inicio
+Leer ahorroxdia
+Leer ahorroanual
+Leer i
+
+ahorroxdia = 3
+ahorroanual = 0
+Para i desde 1 hasta 365 
+    ahorroanual = 3 *(3^(i-1))
+    ahorroanual = ahorroanual + ahorroxdia
+Fin para
+Escribir "El ahorro total anual es de: ", ahorroanual
+Fin
+```
 

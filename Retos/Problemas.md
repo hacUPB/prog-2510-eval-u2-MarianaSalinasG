@@ -195,15 +195,11 @@ más de 50 horas no está permitido. Represente el algoritmo mediante pseudocód
 #### *Análisis*
 
 ``Variables de entrada:``
-  - diahoy
-  - meshoy
-  - anohoy
-  - diacumple
-  - mescumple
-  - anocumple
+  - sueldoSemanal
+  - pagoxghora
 
 ``Variables de salida:``
-- edad
+- horasTrabajadas
 
 ``Constantes:``
 - No hay constantes.
@@ -212,8 +208,9 @@ más de 50 horas no está permitido. Represente el algoritmo mediante pseudocód
 - No hay otras variables.
 
  ``Ecuaciones:``
-- edad = anohoy - anocumple
-- edad = edad - 1
+- sueldoSemanal = horasTrabajadas * pagoxhora
+- sueldoSemanal = (40 * horasTrabajadas + (horasTrabajadas - 40) * pagoxhora * 2)
+- sueldoSemanal = (40 * horasTrabajadas + (5 * horasTrabajadas * 2 ) + (horasTrabajadas - 45) * pagoxhora * 3)
 
 #### Pseudocódigo
 ```
@@ -247,12 +244,7 @@ Fin
 #### *Análisis*
 
 ``Variables de entrada:``
-  - diahoy
-  - meshoy
-  - anohoy
-  - diacumple
-  - mescumple
-  - anocumple
+  - nCantidades
 
 ``Variables de salida:``
 - edad

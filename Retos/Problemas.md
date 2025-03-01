@@ -247,7 +247,9 @@ Fin
   - nCantidades
 
 ``Variables de salida:``
-- edad
+- Mayor
+- Menor
+- Cero
 
 ``Constantes:``
 - No hay constantes.
@@ -256,8 +258,9 @@ Fin
 - No hay otras variables.
 
  ``Ecuaciones:``
-- edad = anohoy - anocumple
-- edad = edad - 1
+- Mayor = Mayor + 1
+- Menor = Menor + 1
+- cero = cero + 1
 
 #### Pseudocódigo
 
@@ -274,7 +277,7 @@ Desde i = 1 hasta i = nCantidades
         cero = cero + 1
     Fin si
 Fin Desde
-Imprimir " ", Mayor, ""
+Imprimir "De las cantidades suministradas hay ", Mayor, "mayores a cero, " Menor, "menores a cero y ", cero, "cantidades con valor cero"
 ```
 
 7. Se requiere un algoritmo para determinar cuánto ahorrará en pesos una persona diariamente, y en un año, si ahorra 3¢ el primero de enero, 9¢ el dos de enero, 27¢ el 3 de enero y así sucesivamente todo el año. Represente la solución mediante pseudocódigo.
@@ -284,15 +287,11 @@ Imprimir " ", Mayor, ""
 #### *Análisis*
 
 ``Variables de entrada:``
-  - diahoy
-  - meshoy
-  - anohoy
-  - diacumple
-  - mescumple
-  - anocumple
+  - ahorroxdia
+  - ahorroanualp
 
 ``Variables de salida:``
-- edad
+- ahorroanual
 
 ``Constantes:``
 - No hay constantes.
@@ -301,8 +300,9 @@ Imprimir " ", Mayor, ""
 - No hay otras variables.
 
  ``Ecuaciones:``
-- edad = anohoy - anocumple
-- edad = edad - 1
+- ahorroxdia = 3^(c+1)
+- ahorroanualp = (3 *(3^(i-1))) / 100
+- ahorroanual = ahorroanualp + ahorroxdiap
 
 #### Pseucódigo
 
@@ -363,6 +363,33 @@ Imprimir "El total a pagar por todos los artículos es: ", totalapagar
 Fin
 ```
 
+## Solución:
+
+#### *Análisis*
+
+``Variables de entrada:``
+  - cantidadarticulos
+  - precio
+  - descuento
+  - costoFinalxArticulo
+  - totalapagar
+
+``Variables de salida:``
+- totalapagar
+
+``Constantes:``
+- No hay constantes.
+
+``Otras variables:``
+- No hay otras variables.
+
+ ``Ecuaciones:``
+- descuento = precio * 0.15
+- descuento = precio * 0.12
+- descuento = precio * 0.10
+- costoFinalxArticulo = precio - descuento
+- totalapagar = totalapagar + costoFinalxArticulo
+
 9. Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:
     
     $𝑒^𝑥 = 1+\frac x {1!} + \frac {x^2}{2!}+ \frac {x^3}{3!}+ …$
@@ -382,6 +409,33 @@ Fin Desde
 Imprimir ealax
 Fin
 ```
+
+## Solución:
+
+#### *Análisis*
+
+``Variables de entrada:``
+  - cantidadarticulos
+  - precio
+  - descuento
+  - costoFinalxArticulo
+  - totalapagar
+
+``Variables de salida:``
+- totalapagar
+
+``Constantes:``
+- No hay constantes.
+
+``Otras variables:``
+- No hay otras variables.
+
+ ``Ecuaciones:``
+- descuento = precio * 0.15
+- descuento = precio * 0.12
+- descuento = precio * 0.10
+- costoFinalxArticulo = precio - descuento
+- totalapagar = totalapagar + costoFinalxArticulo
 
 10. Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:
 $Sen x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...$
@@ -408,3 +462,29 @@ Imprimir sinx
 Fin
 ```
 
+## Solución:
+
+#### *Análisis*
+
+``Variables de entrada:``
+  - cantidadarticulos
+  - precio
+  - descuento
+  - costoFinalxArticulo
+  - totalapagar
+
+``Variables de salida:``
+- totalapagar
+
+``Constantes:``
+- No hay constantes.
+
+``Otras variables:``
+- No hay otras variables.
+
+ ``Ecuaciones:``
+- descuento = precio * 0.15
+- descuento = precio * 0.12
+- descuento = precio * 0.10
+- costoFinalxArticulo = precio - descuento
+- totalapagar = totalapagar + costoFinalxArticulo

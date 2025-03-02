@@ -64,7 +64,7 @@ diagrama de flujo y pseudocódigo (1 pulgada = 0.0254 m).
   - medida
 
 ``Variables de salida:``
-- conversion
+- Conversion
 
 ``Constantes:``
 - pulgadas = 0.0254 m
@@ -83,7 +83,7 @@ Leer medida
 pulgadas = 0.0254 m
 
 Conversion = medida * pulgadas
-Imprimir conversion
+Imprimir Conversion
 Fin
 ```
 
@@ -195,11 +195,11 @@ más de 50 horas no está permitido. Represente el algoritmo mediante pseudocód
 #### *Análisis*
 
 ``Variables de entrada:``
-  - sueldoSemanal
+  - horasTrabajadas
   - pagoxghora
 
 ``Variables de salida:``
-- horasTrabajadas
+- sueldoSemanal
 
 ``Constantes:``
 - No hay constantes.
@@ -215,7 +215,6 @@ más de 50 horas no está permitido. Represente el algoritmo mediante pseudocód
 #### Pseudocódigo
 ```
 Inicio
-Leer sueldoSemanal
 Leer horasTrabajadas
 Leer pagoxHora 
 
@@ -369,13 +368,12 @@ Fin
 
 ``Variables de entrada:``
   - cantidadarticulos
-  - precio
-  - descuento
-  - costoFinalxArticulo
-  - totalapagar
 
 ``Variables de salida:``
 - totalapagar
+ - precio
+  - descuento
+  - costoFinalxArticulo
 
 ``Constantes:``
 - No hay constantes.
@@ -415,14 +413,11 @@ Fin
 #### *Análisis*
 
 ``Variables de entrada:``
-  - cantidadarticulos
-  - precio
-  - descuento
-  - costoFinalxArticulo
-  - totalapagar
+  - bucles
+  - x
 
 ``Variables de salida:``
-- totalapagar
+- ealax
 
 ``Constantes:``
 - No hay constantes.
@@ -431,11 +426,8 @@ Fin
 - No hay otras variables.
 
  ``Ecuaciones:``
-- descuento = precio * 0.15
-- descuento = precio * 0.12
-- descuento = precio * 0.10
-- costoFinalxArticulo = precio - descuento
-- totalapagar = totalapagar + costoFinalxArticulo
+- e_n = (x^i)/(i!)
+-  ealax = ealax = e_n
 
 10. Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:
 $Sen x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...$
@@ -467,24 +459,20 @@ Fin
 #### *Análisis*
 
 ``Variables de entrada:``
-  - cantidadarticulos
-  - precio
-  - descuento
-  - costoFinalxArticulo
-  - totalapagar
+  - bucles
+  - x
 
 ``Variables de salida:``
-- totalapagar
+- sinx
 
 ``Constantes:``
-- No hay constantes.
+- n
 
 ``Otras variables:``
 - No hay otras variables.
 
  ``Ecuaciones:``
-- descuento = precio * 0.15
-- descuento = precio * 0.12
-- descuento = precio * 0.10
-- costoFinalxArticulo = precio - descuento
-- totalapagar = totalapagar + costoFinalxArticulo
+- sini = (x^c)/(c!) 
+- sinx = sinx - sini
+- sinx = sinx + sini
+- n = n + 2

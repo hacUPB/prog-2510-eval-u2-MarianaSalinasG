@@ -241,9 +241,6 @@ Fin si
 Escribir  "El total a pagar es de: $", total
 Fin
 ```
-**Python**
-```
-```
 # 📤 Consigna tus respuestas en la bitácora
 ### Parte 1: Identificar Algoritmos
 

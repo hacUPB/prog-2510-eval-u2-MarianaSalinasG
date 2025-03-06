@@ -5,3 +5,19 @@ Nombre del estudiante:
 Id.:
 ---
 
+
+Evaluador: Juan Diego Soto
+ID: 000553177
+
+Actividades completas: Si, se realizaron todas las actividades y están correctamente resueltas (3pts)
+
+Presentación de documentos: Presentación del contenido claro, manteniendo el uso de markdown con los titulos, subtitulos, etc. También tiene buena ortografía y gramática. (3pts)
+
+Organización del repositorio: El repositorio tiene carpetas y archivos bien nombrados y tiene una buena organización separando las diferentes actividades en sus respectivas carpetas (3pts)
+
+Teoria e investigación: En cuanto a información teorica contiene todos los conceptos preguntados y previamente verificados con una fuente (3pts)
+
+Resolución de ejercicios: Todos los ejercicios propuestos se han resuelto de forma correcta y se explica claramente su proceso y su logica (3 pts)
+
+
+15 puntos de 15

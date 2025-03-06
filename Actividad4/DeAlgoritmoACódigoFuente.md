@@ -22,6 +22,7 @@ Fin
 ### Desarrollo código en Python
 
 ```py
+import math
 def calculo_de_distancia():
     x_1 = float(input("Ingrese la coordenada x del primer punto: "))
     y_1 = float(input("Ingrese la coordenada y del primer punto: "))
@@ -29,7 +30,9 @@ def calculo_de_distancia():
     y_2 = float(input("Ingrese la coordenada y del segundo punto: "))
     
     D = math.sqrt ((y_2 - y_1) ** 2 + (x_2 - x_1) ** 2)
-    print("La distancia entre los puntos es: {D}")
+    print("La distancia entre los puntos es:", D)
+
+calculo_de_distancia()
 ```
 
 2. Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
@@ -53,6 +56,7 @@ Fin
 ### Desarrollo código en Python
 
 ```py
+import math
 def conversion_de_medidas():
     print("Ingrese las medidas a convertir de metros a pulgadas")
     medida = float(input("Ingrese la medida en metros"))
@@ -60,7 +64,8 @@ def conversion_de_medidas():
     pulgadas = 0.0254 
     conversion = medida * pulgadas 
 
-    print("La medida en pulgadas es de:" {conversion})
+    print("La medida en pulgadas es de:", conversion)
+conversion_de_medidas()
 ```
 
 3. Se requiere determinar la hipotenusa de un triángulo rectángulo. ¿Cómo sería el diagrama de flujo y el pseudocódigo que representen el algoritmo para obtenerla? 
@@ -82,13 +87,15 @@ Fin
 ### Desarrollo código en Python
 
 ```py
+import math
 def calculo_de_hipotenusa():
     print("Ingrese el valor de los catetos del trángulo")
     c1 = float(input("Ingrese el valor del cateto 1"))
     c2 = float(input("Ingrese el valor del cateto 2"))
 
     hipotenusa = math.sqrt(c1**2 + c2**2)
-    print("La hipotenusa del triángulo es:"{hipotenisa})
+    print("La hipotenusa del triángulo es:", hipotenusa)
+calculo_de_hipotenusa()
 ```
 
 4. Se requiere determinar la edad actual de una persona basándose en su fecha de nacimiento. Además, es necesario establecer si la persona ya ha cumplido años en el año en curso, si aún no lo ha hecho, o si hoy es su cumpleaños, para celebrarlo. La fecha de nacimiento y la fecha actual estarán representadas mediante tres variables: día, mes y año.
@@ -124,6 +131,7 @@ Fin
 ### Desarrollo código en Python
 
 ```py
+import math
 def calcular_la_edad():
     diahoy = int(input("Ingrese el día de hoy: "))
     meshoy = int(input("Ingrese el mes de hoy: "))
@@ -145,7 +153,8 @@ def calcular_la_edad():
     else:
         print("El usuario ya cumplió años")
 
-    print("La edad del usuario es:" {edad})
+    print("La edad del usuario es:", edad)
+calcular_la_edad()
 ```
 
 5. Realice un algoritmo que permita determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que a partir de la hora número 41 y hasta la 45, cada hora se le paga el doble, de la hora 46 a la 50, el triple, y que trabajar
@@ -178,6 +187,7 @@ Fin
 ### Desarrollo código en Python
 
 ```py
+import math
 def calcular_el_sueldo():
     pagoxHora = float(input("Ingrese el pago por hora: "))
     horasTrabajadas = int(input("Ingrese el número de horas trabajadas: "))
@@ -192,5 +202,6 @@ def calcular_el_sueldo():
         elif horasTrabajadas <= 50:
             sueldoSemanal = (40 * pagoxHora + (5 * pagoxHora * 2) + (horasTrabajadas - 45) * pagoxHora * 3)
         
-        print("El sueldo semanal es:"{sueldoSemanal})
+        print("El sueldo semanal es:", sueldoSemanal)
+calcular_el_sueldo()
 ```
